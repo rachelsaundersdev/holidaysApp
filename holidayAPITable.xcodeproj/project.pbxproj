@@ -15,6 +15,7 @@
 		189CFB1423946C4F00FBD10C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189CFB1223946C4F00FBD10C /* LaunchScreen.storyboard */; };
 		189CFB1C23946F2700FBD10C /* HolidaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFB1B23946F2700FBD10C /* HolidaysTableViewController.swift */; };
 		189CFB1E239472DA00FBD10C /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFB1D239472DA00FBD10C /* Holiday.swift */; };
+		189CFB202394745200FBD10C /* HolidayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFB1F2394745200FBD10C /* HolidayRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		189CFB1523946C4F00FBD10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189CFB1B23946F2700FBD10C /* HolidaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysTableViewController.swift; sourceTree = "<group>"; };
 		189CFB1D239472DA00FBD10C /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		189CFB1F2394745200FBD10C /* HolidayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				189CFB0923946C4C00FBD10C /* SceneDelegate.swift */,
 				189CFB1B23946F2700FBD10C /* HolidaysTableViewController.swift */,
 				189CFB1D239472DA00FBD10C /* Holiday.swift */,
+				189CFB1F2394745200FBD10C /* HolidayRequest.swift */,
 				189CFB0B23946C4C00FBD10C /* ViewController.swift */,
 				189CFB0D23946C4C00FBD10C /* Main.storyboard */,
 				189CFB1023946C4F00FBD10C /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189CFB202394745200FBD10C /* HolidayRequest.swift in Sources */,
 				189CFB1C23946F2700FBD10C /* HolidaysTableViewController.swift in Sources */,
 				189CFB1E239472DA00FBD10C /* Holiday.swift in Sources */,
 				189CFB0C23946C4C00FBD10C /* ViewController.swift in Sources */,
