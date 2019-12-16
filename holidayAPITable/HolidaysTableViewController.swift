@@ -43,7 +43,7 @@ class HolidaysTableViewController: UITableViewController {
         let holiday = listOfHolidays[indexPath.row]
         
         cell.textLabel?.text = holiday.name
-        cell.detailTextLabel?.text = holiday.date.iso
+        cell.detailTextLabel?.text = holiday.date.ios
         
         return cell
     }
@@ -52,7 +52,8 @@ class HolidaysTableViewController: UITableViewController {
     
 }
 
-extension HolidayTableViewController : UISearchBarDelegate {
+
+extension HolidaysTableViewController : UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let searchBarText = searchBar.text else {return}
         let holidayRequest = HolidayRequest(countryCode: searchBarText)
@@ -64,6 +65,6 @@ extension HolidayTableViewController : UISearchBarDelegate {
                 self?.listOfHolidays = holidays
             }
         }
-        
+
     }
 }

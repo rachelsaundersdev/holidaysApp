@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18386A9223A81E1500905511 /* HolidaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFB1B23946F2700FBD10C /* HolidaysTableViewController.swift */; };
 		189CFB0823946C4C00FBD10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFB0723946C4C00FBD10C /* AppDelegate.swift */; };
 		189CFB0A23946C4C00FBD10C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFB0923946C4C00FBD10C /* SceneDelegate.swift */; };
 		189CFB0F23946C4C00FBD10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189CFB0D23946C4C00FBD10C /* Main.storyboard */; };
 		189CFB1123946C4F00FBD10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189CFB1023946C4F00FBD10C /* Assets.xcassets */; };
 		189CFB1423946C4F00FBD10C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189CFB1223946C4F00FBD10C /* LaunchScreen.storyboard */; };
-		189CFB1C23946F2700FBD10C /* HolidaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFB1B23946F2700FBD10C /* HolidaysTableViewController.swift */; };
 		189CFB1E239472DA00FBD10C /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFB1D239472DA00FBD10C /* Holiday.swift */; };
 		189CFB202394745200FBD10C /* HolidayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CFB1F2394745200FBD10C /* HolidayRequest.swift */; };
 /* End PBXBuildFile section */
@@ -145,8 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				189CFB202394745200FBD10C /* HolidayRequest.swift in Sources */,
-				189CFB1C23946F2700FBD10C /* HolidaysTableViewController.swift in Sources */,
 				189CFB1E239472DA00FBD10C /* Holiday.swift in Sources */,
+				18386A9223A81E1500905511 /* HolidaysTableViewController.swift in Sources */,
 				189CFB0823946C4C00FBD10C /* AppDelegate.swift in Sources */,
 				189CFB0A23946C4C00FBD10C /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFMS5Y826S;
 				INFOPLIST_FILE = holidayAPITable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFMS5Y826S;
 				INFOPLIST_FILE = holidayAPITable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
